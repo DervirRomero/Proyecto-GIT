@@ -1,0 +1,20 @@
+••••••••••••••••••••••••••••••••
+   I N S T R U C C I O N E S  
+••••••••••••••••••••••••••••••••
+
+1.- Agregue estas líneas a su archivo hosts (C:\Windows\System32\Drivers\etc\hosts):
+
+127.0.0.1 iws.corel.com
+127.0.0.1 mc.corel.com
+
+2.- Instale CDGS/CDTS 2024
+    Instale update
+
+3.- Use el keygen Mr.lin para generar el número de serie
+4.- Inicie xfpsp2023-mod.exe, seleccione CorelDRAW Graphics Suite 2024 
+o CorelDRAW Technical Suite 2024 y haga clic en Código de activación
+5 parchear Copiar el contenido de 5.PARCHEAR a:
+c:\Program Files\Corel\PASMUtility\v1\
+
+
+•••••••••

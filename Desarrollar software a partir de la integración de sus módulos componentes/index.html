@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desarrollo de Software Modular</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Menú de Navegación -->
+    <nav class="navbar">
+        <div class="logo">Software Modular</div>
+        <ul class="nav-links">
+            <li><a href="#">Inicio</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">Características</a>
+                <div class="dropdown-content">
+                    <a href="#">Módulos</a>
+                    <a href="#">Integración</a>
+                    <a href="#">Escalabilidad</a>
+                </div>
+            </li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+        <div class="auth-buttons">
+            <button id="login-btn">Iniciar Sesión</button>
+            <button id="signup-btn">Registrarse</button>
+        </div>
+    </nav>
+
+    <!-- Modal de Iniciar Sesión -->
+    <div id="login-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="close-login">&times;</span>
+            <h2>Iniciar Sesión</h2>
+            <form id="login-form">
+                <label for="login-email">Correo Electrónico:</label>
+                <input type="email" id="login-email" required>
+                
+                <label for="login-password">Contraseña:</label>
+                <input type="password" id="login-password" required>
+                
+                <button type="submit">Entrar</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Modal de Registro -->
+    <div id="signup-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="close-signup">&times;</span>
+            <h2>Registrarse</h2>
+            <form id="signup-form">
+                <label for="signup-username">Nombre de Usuario:</label>
+                <input type="text" id="signup-username" required>
+                
+                <label for="signup-email">Correo Electrónico:</label>
+                <input type="email" id="signup-email" required>
+                
+                <label for="signup-password">Contraseña:</label>
+                <input type="password" id="signup-password" required>
+                
+                <button type="submit">Registrarse</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Contenido Principal -->
+    <main>
+        <section class="introduccion">
+            <h1>Desarrollo de Software Modular</h1>
+            <p>Integración de Módulos Componentes para una solución eficiente y escalable.</p>
+        </section>
+
+        <section class="contenido">
+            <h2>¿Qué es el Desarrollo de Software Modular?</h2>
+            <p>El desarrollo de software modular es una metodología que divide una aplicación en piezas individuales llamadas módulos. Cada módulo tiene una funcionalidad específica y puede ser desarrollado, probado e integrado de manera independiente.</p>
+
+            <h2>Ventajas de la Modularización</h2>
+            <ul>
+                <li>Mantenimiento más fácil y rápido</li>
+                <li>Reutilización de código en diferentes proyectos</li>
+                <li>Facilita la escalabilidad de la aplicación</li>
+                <li>Permite el desarrollo paralelo por diferentes equipos</li>
+            </ul>
+
+            <h2>Proceso de Integración de Módulos</h2>
+            <ol>
+                <li>Definir los módulos principales</li>
+                <li>Desarrollar cada módulo de forma independiente</li>
+                <li>Realizar pruebas unitarias en cada módulo</li>
+                <li>Integrar los módulos y realizar pruebas de integración</li>
+            </ol>
+        </section>
+    </main>
+
+    <!-- Pie de Página -->
+    <footer>
+        <p>&copy; 2024 Desarrollo de Software Modular</p>
+    </footer>
+
+    <!-- Enlazar JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
